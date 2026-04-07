@@ -1,0 +1,19 @@
+Assignment: Create user Digital User Directory.
+
+Goal: Build a React app that fetches a list of users, allows navigation to a detailed profile, and handles side effects correctly.
+
+1. Project Requirements
+React Router: Navigate between a "Home" (List) page and a "Profile" (Detail) page.
+useEffect Hook: Trigger API calls automatically when components load.
+Public API: Use JSONPlaceholder (https://jsonplaceholder.typicode.com/users).
+
+
+Suggested Folder Structure
+text
+src/
+  ├── components/
+  │    ├── UserCard.jsx      (Small UI component for the list)
+  ├── pages/
+  │    ├── Home.jsx          (Fetches and shows all users)
+  │    ├── UserProfile.jsx   (Fetches and shows one user's details)
+  └── App.jsx                (Routing setup)
